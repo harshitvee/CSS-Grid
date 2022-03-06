@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    height: 600px;
+    border: 10px solid red;
+    margin: 100px auto;
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-template-columns: repeat(3, 150px);
+    gap: 10px;
+    /* justify-items: center;
+    align-items: center; */
+    /* place-items: end start; */
+
+    /* justify-content: center;
+    align-content: center; */
+    /* place-content: center space-between; */
+}
+.item {
+    background: #487eb0;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+}
